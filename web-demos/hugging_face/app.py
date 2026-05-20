@@ -471,7 +471,7 @@ with gr.Blocks(theme=gr.themes.Monochrome(), css=css) as iface:
                                             value=8,)
 
                     subvideo_length_number = gr.Slider(label='Length of sub-video for long video inference.',
-                                            minimum=40,
+                                            minimum=10,
                                             maximum=200,
                                             step=1,
                                             value=80,)
