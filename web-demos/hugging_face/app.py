@@ -466,7 +466,7 @@ with gr.Blocks(theme=gr.themes.Monochrome(), css=css) as iface:
                 with gr.Row():
                     dilate_radius_number = gr.Slider(label='Mask dilation for video and flow masking.',
                                             minimum=0,
-                                            maximum=10,
+                                            maximum=100,
                                             step=1,
                                             value=8,)
 
