@@ -408,8 +408,8 @@ button {border-radius: 8px !important;}
 .add_button {background-color: #4CAF50 !important;}
 .remove_button {background-color: #f44336 !important;}
 .mask_button_group {gap: 10px !important;}
-.video {height: 300px !important;}
-.image {height: 300px !important;}
+.video {height: 300px;}
+.image {height: 300px;}
 .video .wrap.svelte-lcpz3o {display: flex !important; align-items: center !important; justify-content: center !important;}
 .video .wrap.svelte-lcpz3o > :first-child {height: 100% !important;}
 .margin_center {width: 50% !important; margin: auto !important;}
